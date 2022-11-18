@@ -1,42 +1,24 @@
-# Nuxt 3 Minimal Starter
+# otameshi_graphql_with_nuxt3
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## これはなに？
 
-## Setup
+GraphQL初学者の学習サポートのつもりで、
 
-Make sure to install the dependencies:
+- モックとして動作するGraphQLサーバと
+- テキストエリアに入力して自由にクエリを投げられる砂場
 
-```bash
-# yarn
-yarn install
+を構築したよ。
 
-# npm
-npm install
+構築にはNuxt3を使っていて、前者を `server/api/graphql.ts` で、後者を `app.vue` で実装したよ。
 
-# pnpm
-pnpm install --shamefully-hoist
-```
+## 使い方
 
-## Development Server
+1. まずこのリポジトリを git clone する
+2. クローンしたこのリポジトリのルートディレクトリに移動する
+3. `npm run dev` で開発サーバを起動する
+4. 完了！
 
-Start the development server on http://localhost:3000
+上記手順で、`http://localhost:3000/api/graphql` にGraphQLサーバが、
+`http://localhost:3000/` にクエリ発行用の砂場が立ち上がるよ。
 
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Flutterなど何かしら学習中のフレームワーク等があるなら、それらのフレームワークからこのリポジトリのGraphQLサーバにクエリを投げて学習することもできるし、そもそもGraphQLについての感触を知りたければ上記の『砂場』でクエリをいじってみるといいよ。
