@@ -1,5 +1,7 @@
 # otameshi_graphql_with_nuxt3
 
+![graphql_nuxt3_sandbox_04](https://user-images.githubusercontent.com/41170561/202707873-a5accc05-e67c-47d2-80bb-22a076cc55c4.gif)
+
 ## これはなに？
 
 GraphQL初学者の学習サポートのつもりで、
